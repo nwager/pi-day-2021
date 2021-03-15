@@ -16,10 +16,7 @@ body {
     background-attachment: fixed; /*Makes the gradient continuous along the entire page*/
     font-family: 'Noah-Regular';
     color: #feffff;
-    font-size: 1.2em;
-}
-
-html {
+    font-size: 1.1em;
 }
 
 .number {
@@ -53,7 +50,7 @@ canvas {
 }
 
 button {
-    background-color: #024cbd; /* Green */
+    background-color: #024cbd;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -61,7 +58,7 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 0.5em 1em 0 1em;
+    margin: 1em 1em 0 1em;
 }
 
 button:hover {
@@ -70,4 +67,13 @@ button:hover {
 
 button:active {
     transform: translateY(2px);
+}
+
+a {
+    color: rgb(255, 213, 86);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
