@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Archimedes' Pi Day 2021</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+	<body onload="update()">
+        <div id="main">
+            <h1>Pi Day 2021: Archimedes Approximation</h1>
+            <div id="info_pane">
+                <p>Sides: <span id="n_sides" class="number">6</span></p>
+                <p>π ≈ <span id="approx_pi" class="number">0</span></p>
+                <button type="button" onclick="halve()" id="halve">sides / 2</button>
+                <button type="button" onclick="double()" id="double">sides × 2</button>
+            </div>
+            </br>
+            <canvas id="myCanvas" style="border:1px solid #d3d3d3;">
+                Your browser does not support the canvas element.
+            </canvas>
+        </div>
+
+        <script src="draw-shape.js"></script>
+    </body>
+</html>
