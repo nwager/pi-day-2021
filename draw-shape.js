@@ -34,7 +34,7 @@ function update() {
     ctx.fillText("π", canvas.width/2, canvas.height/2);
     ctx.font = "48px serif";
     ctx.textBaseline = "top";
-    ctx.fillText("3/4/21", canvas.width/2, canvas.height/2 + 24);
+    ctx.fillText("3/14/21", canvas.width/2, canvas.height/2 + 24);
 
     // draw polygon
     if (numSides <= 1536) {
